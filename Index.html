@@ -1,45 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Hursbourne Community</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Hursbourne Community</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-color: #145214; 
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.header-div {
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+nav a {
+  background: #7ed321; 
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  color: white;
+}
+.why-hursbourne-tab {
+  max-width: 700px;
+  margin: 20px auto;
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+.why-hursbourne-tab h3 {
+  margin-top: 0;
+}
+</style>
 </head>
 <body>
-    <div class="bg-gradient-overlay"></div>
-  <header>
-    <h1>Hursbourne Community</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#events">Events</a>
-      <a href="#news">News</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-    <section class="hero">
-    <h2>Welcome to Hursbourne!</h2>
-    <p>Join our thriving, friendly community. Get involved, discover news and events, be a part of our future!</p>
-      <div class="why-hursbourne-tab">
-      <h3>Why Hursbourne?</h3>
-      <p>
-        Hursbourne is a vibrant, welcoming community where neighbours support each other and lifelong friendships are made. Surrounded by beautiful countryside and enriched by a proud heritage, residents enjoy safe streets, accessible parks, and a wide variety of activities for all ages.
-      </p>
-      <p>
-        What truly sets Hursbourne apart is its spirit of togetherness. Whether you’re joining one of our many clubs, attending lively events, or simply strolling through the village, you’ll always find a smile and a helping hand. Hursbourne isn’t just a place to live—it’s a place to belong.
-      </p>
-    </div>
-      <section id="gallery" class="tab-content">
-  <h3>Gallery: Scenes from Hursbourne, Jefferson County</h3>
-  <div class="image-gallery">
-    <img src="images/town-square.jpg" alt="Hursbourne Town Square" />
-    <img src="images/park-lake.jpg" alt="Tranquil lake in Hursbourne park" />
-    <img src="images/community-center.jpg" alt="Community Centre in Hursbourne" />
-    <img src="images/local-festival.jpg" alt="Annual Hursbourne Festival" />
-    <img src="images/historic-church.jpg" alt="Historic Church in Hursbourne" />
+
+<div class="header-div">
+  <h1>Hursbourne Community</h1>
+</div>
+
+<nav>
+  <a href="#about">
+    <img src="https://img.icons8.com/fluency/48/info.png"> About
+  </a>
+  <a href="#events">
+    <img src="https://img.icons8.com/fluency/48/event-accepted.png"> Events
+  </a>
+  <a href="#news">
+    <img src="https://img.icons8.com/fluency/48/news.png"> News
+  </a>
+  <a href="#gallery">
+    <img src="https://img.icons8.com/fluency/48/pictures-folder.png"> Gallery
+  </a>
+  <a href="#contact">
+    <img src="https://img.icons8.com/fluency/48/phone.png"> Contact
+  </a>
+</nav>
+
+<section class="hero">
+  <h2>Welcome to Hursbourne!</h2>
+  <p>Join our thriving, friendly community. Get involved, discover news and events, be a part of our future!</p>
+  <div class="why-hursbourne-tab">
+    <h3>Why Hursbourne?</h3>
+    <p>
+      Hursbourne is a vibrant, welcoming community where neighbours support each other and lifelong friendships are made. Surrounded by beautiful countryside and enriched by a proud heritage, residents enjoy safe streets, accessible parks, and a wide variety of activities for all ages.
+    </p>
+    <p>
+      What truly sets Hursbourne apart is its spirit of togetherness. Whether you’re joining one of our many clubs, attending lively events, or simply strolling through the village, you’ll always find a smile and a helping hand. Hursbourne isn’t just a place to live—it’s a place to belong.
+    </p>
   </div>
-  <p>
-    Explore the beauty and spirit of Hursbourne, nestled in Jefferson County—where community, history, and nature meet. Our gallery showcases favorite spots loved by residents and visitors alike!
-  </p>
 </section>
+
+</body>
+</html>
